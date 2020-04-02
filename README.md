@@ -28,7 +28,8 @@ config.json不变
 > 在 /etc/sysctl.conf 中添加
 net.core.default_qdisc=fq
 net.ipv4.tcp_congestion_control=bbr
->**我惊奇的发现 Debian 10默认就开启了**
+
+>**我发现 Debian 10默认开启了BBR**
 
 至此，服务端环境已经ok了，如果你手机上有v2ray客户端，可以连接使用了
 
