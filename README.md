@@ -19,7 +19,7 @@ config.json不变
 > 对新手来说，只需要更改端口
 
 最后运行 ./v2ray，服务就跑起来了
-但！为了服务更加优雅一点，以及断开服务器ssh后服务仍然保持运行
+接着为了服务更加优雅一点，以及断开服务器ssh后服务仍然保持运行
 > 在/etc/profile 中加入 /usr/bin/nohup /opt/v2ray/v2ray > /dev/null 2>&1 &
 > 执行 source /etc/profile
 > 这样服务就优雅的跑起来了，并且服务器开机后会自动运行v2ray服务
